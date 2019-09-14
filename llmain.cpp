@@ -1,15 +1,27 @@
-#include"linkedlist.cpp"
-#include<iostream>
-using namespace std;
-
+#include"ll.cpp"
 int main()
 {
-	ll<int> b;
-	b.AddAtEnd(11);
-	b.AddAtEnd(22);
-	b.AddAtEnd(33);
-	b.AddAtEnd(44);
-	b.Display();
+	ll <int>a;
+	a.addatfirst(11);
+	a.addatfirst(22);
+	a.addatfirst(33);
+	//a.display();
+	//cout<<a.deleteatfirst()<<endl;
+	//a.display();
+
+	a.addatlast(55);
+	a.display();
+	
+	//cout<<a.deleteatlast()<<endl;
+	
+	a.insertat(99,3);
+
+	a.display();
+
+	a.reverse();
+	
+	a.display();
 
 	return 0;
 }
+
